@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply text-base font-bold rounded-[58px] border w-36 py-3;
+  }
+  .btn-text {
+    @apply text-white border-none hover:bg-[#FF7B86];
+  }
+  .btn-contained {
+    @apply bg-white text-[#FF505C];
+  }
+  .btn-outlined {
+    @apply bg-transparent text-white border-white;
+  }
+}
